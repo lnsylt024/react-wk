@@ -8,6 +8,9 @@ import ExampleGame from "./example/ExampleGame";
 import ExampleLayout from "./layout/ExampleLayout";
 import ExampleTSX from "./tsx/ExampleTSX";
 import ExampleCalculator from "./tsx/ExampleCalculator";
+import ExampleTheme from "./tsx/ExampleTheme";
+import ExampleKind from "./tsx/ExampleKind";
+import ExampleCallback from "./tsx/ExampleCallback";
 
 //方案1
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -38,4 +41,16 @@ ReactDOM.createRoot(document.getElementById("exampletsx")).render(
 
 ReactDOM.createRoot(document.getElementById("examplecalculator")).render(
     <ExampleCalculator />,
+);
+
+ReactDOM.createRoot(document.getElementById("exampletheme")).render(
+    <ExampleTheme />,
+);
+
+ReactDOM.createRoot(document.getElementById("examplekind")).render(
+    <ExampleKind />,
+);
+
+ReactDOM.createRoot(document.getElementById("examplecallback")).render(
+    <ExampleCallback />,
 );
