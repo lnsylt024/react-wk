@@ -5,6 +5,7 @@ import App from "./App";
 import Study from "./study/Study";
 import Game from "./example/Game";
 import ExampleGame from "./example/ExampleGame";
+import ExampleLayout from "./layout/ExampleLayout";
 
 //方案1
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -21,3 +22,6 @@ ReactDOM.createRoot(document.getElementById("game")).render(<Game/>);
 
 //
 ReactDOM.createRoot(document.getElementById("examplegame")).render(<ExampleGame/>);
+
+//
+ReactDOM.createRoot(document.getElementById("examplelayout")).render(<ExampleLayout/>);
