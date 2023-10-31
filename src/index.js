@@ -7,6 +7,7 @@ import Game from "./example/Game";
 import ExampleGame from "./example/ExampleGame";
 import ExampleLayout from "./layout/ExampleLayout";
 import ExampleTSX from "./tsx/ExampleTSX";
+import ExampleCalculator from "./tsx/ExampleCalculator";
 
 //方案1
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -33,4 +34,8 @@ ReactDOM.createRoot(document.getElementById("examplelayout")).render(
 
 ReactDOM.createRoot(document.getElementById("exampletsx")).render(
   <ExampleTSX />,
+);
+
+ReactDOM.createRoot(document.getElementById("examplecalculator")).render(
+    <ExampleCalculator />,
 );
