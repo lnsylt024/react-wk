@@ -11,6 +11,9 @@ import ExampleCalculator from "./tsx/ExampleCalculator";
 import ExampleTheme from "./tsx/ExampleTheme";
 import ExampleKind from "./tsx/ExampleKind";
 import ExampleCallback from "./tsx/ExampleCallback";
+import ExapmleComponent from "./components/index"
+import ExampleJSX from "./jsx/index"
+import ExampleCard from "./card/index"
 
 //方案1
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -53,4 +56,16 @@ ReactDOM.createRoot(document.getElementById("examplekind")).render(
 
 ReactDOM.createRoot(document.getElementById("examplecallback")).render(
     <ExampleCallback />,
+);
+
+ReactDOM.createRoot(document.getElementById("examplecomponent")).render(
+    <ExapmleComponent />,
+);
+
+ReactDOM.createRoot(document.getElementById("examplejsx")).render(
+    <ExampleJSX />,
+);
+
+ReactDOM.createRoot(document.getElementById("examplecard")).render(
+    <ExampleCard />,
 );
