@@ -24,6 +24,7 @@ function Index() {
         <div>
             <h1>Welcom to my tsx! {status} {reqState.status}</h1>
             <MyButton title={"My button"} disabled={true}/>
+            <span>123456789</span>
         </div>
     );
 }

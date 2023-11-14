@@ -9,6 +9,7 @@ function MyComponent() {
     const theme = useGetTheme();
     return (
         <div>
+            <span>Theme</span>
             <p>Theme:{theme}</p>
         </div>
     );
